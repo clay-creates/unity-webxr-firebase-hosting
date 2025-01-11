@@ -1,0 +1,3 @@
+<FilesMatch "\.(js\.br|data\.br|wasm\.br)$">
+  Header set Content-Encoding br
+</FilesMatch>
