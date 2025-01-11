@@ -1,0 +1,61 @@
+[debug] [2025-01-11T00:26:06.417Z] ----------------------------------------------------------------------
+[debug] [2025-01-11T00:26:06.419Z] Command:       /usr/local/share/nvm/versions/node/v20.18.1/bin/node /home/codespace/nvm/current/bin/firebase init
+[debug] [2025-01-11T00:26:06.419Z] CLI Version:   13.29.1
+[debug] [2025-01-11T00:26:06.419Z] Platform:      linux
+[debug] [2025-01-11T00:26:06.420Z] Node Version:  v20.18.1
+[debug] [2025-01-11T00:26:06.420Z] Time:          Sat Jan 11 2025 00:26:06 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-01-11T00:26:06.420Z] Env Overrides: GITHUB_API_URL, GITHUB_API_URL
+[debug] [2025-01-11T00:26:06.420Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-11T00:26:06.424Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-11T00:26:06.424Z] > authorizing via signed-in user (claycreatesstuff@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /workspaces/0x0E-unity-webxr
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-11T00:27:08.028Z] Checked if tokens are valid: true, expires at: 1736558752238
+[debug] [2025-01-11T00:27:08.028Z] Checked if tokens are valid: true, expires at: 1736558752238
+[debug] [2025-01-11T00:27:08.030Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-01-11T00:27:08.381Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-01-11T00:27:08.381Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project webxr-bowling (WebXR Bowling) 
+[info] 
+=== Apphosting Setup
+[debug] [2025-01-11T00:27:10.443Z] Checked if tokens are valid: true, expires at: 1736558752238
+[debug] [2025-01-11T00:27:10.443Z] Checked if tokens are valid: true, expires at: 1736558752238
+[debug] [2025-01-11T00:27:10.443Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/webxr-bowling/billingInfo [none]
+[debug] [2025-01-11T00:27:10.592Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/webxr-bowling/billingInfo 200
+[debug] [2025-01-11T00:27:10.592Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/webxr-bowling/billingInfo {"name":"projects/webxr-bowling/billingInfo","projectId":"webxr-bowling","billingAccountName":"","billingEnabled":false}
+[info] i  Writing default settings to apphosting.yaml... 
+[info] ✔  Wrote apphosting.yaml 
+[info] ✔  Create a new App Hosting backend with `firebase apphosting:backends:create` 
+[info] 
+=== Hosting Setup
+[debug] [2025-01-11T00:27:10.595Z] Checked if tokens are valid: true, expires at: 1736558752238
+[debug] [2025-01-11T00:27:10.595Z] Checked if tokens are valid: true, expires at: 1736558752238
+[debug] [2025-01-11T00:27:10.595Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/webxr-bowling [none]
+[debug] [2025-01-11T00:27:10.772Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/webxr-bowling 200
+[debug] [2025-01-11T00:27:10.772Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/webxr-bowling {"projectId":"webxr-bowling","projectNumber":"396454026189","displayName":"WebXR Bowling","name":"projects/webxr-bowling","resources":{"hostingSite":"webxr-bowling"},"state":"ACTIVE","etag":"1_2c87e6d6-da58-46ee-b510-b00fd4fd9ab5"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
